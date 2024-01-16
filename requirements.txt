@@ -52,6 +52,7 @@ seaborn==0.13.1
 six==1.16.0
 SQLAlchemy==2.0.25
 stack-data==0.6.3
+requests==2.31.0
 threadpoolctl==3.2.0
 tornado==6.4
 tqdm==4.66.1
