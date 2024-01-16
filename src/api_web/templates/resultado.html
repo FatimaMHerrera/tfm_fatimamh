@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Tu código de estilo aquí -->
+</head>
+<body>
+    <h1>Prediction results</h1>
+    <table>
+        <tr>
+            <th>Modelo</th>
+            <th>SMAPE</th>
+        </tr>
+        {% for smape in smape_results.model_smapes %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ smape }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td>Avergage</td>
+            <td>{{ smape_results.average_smape }}</td>
+        </tr>
+    </table>
+</body>
+</html>
