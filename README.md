@@ -117,9 +117,16 @@ deactivate
 ```bash
 conda deactivate
 ```
-
 ---
 
+Also, you can run a Docker build.
+
+- Navigate to the path where the Dockerfile is located, then execute the command `docker build -t fatima_tfm_img .`.
+
+- Wait for the build process to complete, and then run the following command: `docker run -p 8888:8888 fatima_img`
+
+
+---
 This `README.md` provides a basic guide and may need to be adjusted or expanded according to the specific needs of your project. Don't forget to check the specific paths and commands for your operating system and configuration.
 
 
